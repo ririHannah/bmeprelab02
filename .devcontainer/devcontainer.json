@@ -1,0 +1,9 @@
+{
+  "name": "Pico C/C++",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "containerEnv": { "PICO_SDK_PATH": "/home/vscode/pico-sdk" },
+  "customizations": {
+    "vscode": { "extensions": ["ms-vscode.cmake-tools", "ms-vscode.cpptools"] }
+  }
+}
